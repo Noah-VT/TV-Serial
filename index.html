@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CID Watch - TV-Serial</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>CID Watch</h1>
+    <p>Watch CID episodes and related videos. Replace placeholder IDs with real YouTube video IDs in index.html.</p>
+  </header>
+
+  <main class="container">
+    <section class="videos">
+      <h2>Featured CID Episodes</h2>
+      <div class="grid">
+        <!-- Replace VIDEO_ID_1..VIDEO_ID_6 with real YouTube IDs -->
+        <div class="card">
+          <div class="video-wrap">
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" title="CID 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <h3>CID Episode 1 (placeholder)</h3>
+        </div>
+
+        <div class="card">
+          <div class="video-wrap">
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" title="CID 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <h3>CID Episode 2 (placeholder)</h3>
+        </div>
+
+        <div class="card">
+          <div class="video-wrap">
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID_3" title="CID 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <h3>CID Episode 3 (placeholder)</h3>
+        </div>
+
+        <div class="card">
+          <div class="video-wrap">
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID_4" title="CID 4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <h3>Related Video 1 (placeholder)</h3>
+        </div>
+
+        <div class="card">
+          <div class="video-wrap">
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID_5" title="CID 5" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <h3>Related Video 2 (placeholder)</h3>
+        </div>
+
+        <div class="card">
+          <div class="video-wrap">
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID_6" title="CID 6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <h3>Related Video 3 (placeholder)</h3>
+        </div>
+
+      </div>
+    </section>
+
+    <aside class="sidebar">
+      <div class="monetize">
+        <h2>Monetize / Earn</h2>
+        <p>This section shows common ways to earn from a video site. Replace placeholders with real ad codes, affiliate links, or donation links.</p>
+
+        <div class="ad-box">
+          <!-- Ad placeholder: replace with real ad iframe or script -->
+          <div class="ad-placeholder">Ad placeholder (replace with AdSense or ad network code)</div>
+        </div>
+
+        <div class="affiliate">
+          <h3>Affiliate Offers</h3>
+          <ul>
+            <li><a href="https://example.com/affiliate?ref=YOUR_AFF_ID" target="_blank" rel="noopener">Affiliate product 1 (example)</a></li>
+            <li><a href="https://example.com/affiliate?ref=YOUR_AFF_ID" target="_blank" rel="noopener">Affiliate product 2 (example)</a></li>
+          </ul>
+        </div>
+
+        <div class="donate">
+          <h3>Support</h3>
+          <p><a class="btn" href="#">Donate / Pay</a></p>
+        </div>
+      </div>
+
+      <div class="newsletter">
+        <h3>Subscribe</h3>
+        <p>Get notified when new episodes are added.</p>
+        <form onsubmit="event.preventDefault(); alert('Subscribe placeholder - integrate an email provider');">
+          <input type="email" placeholder="you@example.com" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> CID Watch - TV-Serial. Site created for demonstration. Replace placeholders before publishing.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
